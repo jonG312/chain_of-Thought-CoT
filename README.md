@@ -6,9 +6,6 @@ Cheer AI up with the "let's think step by step" prompt? More plz. *Let’s think
 
 Auto-CoT uses more cheers & diversity to SAVE huge manual efforts in chain of thought prompt design, matching or even exceeding performance of manual design on GPT-3.
 
-Check out our [25-page paper](https://arxiv.org/pdf/2210.03493.pdf) for more information.
-
-
 
 
 
