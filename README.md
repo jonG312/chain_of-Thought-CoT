@@ -1,6 +1,6 @@
 # Auto-CoT: Automatic Chain of Thought Prompting in Large Language Models (ICLR 2023)
 
-[![Open Auto-CoT in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amazon-science/auto-cot/blob/main/try_cot_colab.ipynb)
+<a href="https://colab.research.google.com/github/jonG312/chain_of-Thought-CoT/blob/main/Chain_of_Thought_Promptin.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 Cheer AI up with the "let's think step by step" prompt? More plz. *Let’s think not just step by step, but also one by one.*
 
@@ -30,44 +30,9 @@ https://github.com/kojima-takeshi188/zero_shot_cot/tree/main/dataset
 https://github.com/kojima-takeshi188/zero_shot_cot/tree/main/log
 ```
 
-## Quick Start
 
-See ```try_cot.ipynb```
 
-## Instructions
 
-Construct Demos:
 
-```
-python run_demo.py \
---task multiarith \
---pred_file log/multiarith_zero_shot_cot.log \
---demo_save_dir demos/multiarith
-```
 
-Run inference:
 
-```
-python run_inference.py \
---dataset multiarith \
---demo_path demos/multiarith \
---output_dir experiment/multiarith
-```
-
-## Citing Auto-CoT
-```
-@inproceedings{zhang2023automatic,
-  title={Automatic Chain of Thought Prompting in Large Language Models},
-  author={Zhang, Zhuosheng and Zhang, Aston and Li, Mu and Smola, Alex},
-  booktitle={The Eleventh International Conference on Learning Representations (ICLR 2023)},
-  year={2023}
-}
-```
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This project is licensed under the Apache-2.0 License.
